@@ -1,6 +1,0 @@
-Country	Popu	go
-China	45	1
-USA	34	2
-UAE	73	3
-Saudi Arabia	85	4
-Switzerland	23	5
