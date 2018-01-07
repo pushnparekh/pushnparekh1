@@ -1,0 +1,1077 @@
+<!doctype html>
+<html>
+<head> 
+<meta property="og:image" content="http://image.ibb.co/f1uicG/prev5.jpg"/>
+    <meta property="og:title" content="Did you say food?" />
+     <meta name="description" content="Making life choices can be tricky. So is choosing restaurant for your perfect meal. Explore popular restaurants, cafe, pubs & bars in India. All at Once!!!" />
+     
+   <style>
+ 
+  canvas {
+
+        -moz-user-select: none;
+       
+        -ms-user-select: none;
+
+  height: 500px; 
+     
+ }
+ .container {
+
+ }
+ 
+ 
+ 
+ .fork{
+    position: absolute;
+    border: none;
+    border-radius: 8px;
+    left:500px;
+    top:350px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width:150px;
+    cursor: pointer;
+   animation: shake 0.7s;
+  animation-iteration-count: infinite;
+  z-index:2;
+ }
+
+ .fork:hover {
+  animation: none;
+}
+ 
+ 
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+ .shake1{
+ position:absolute;
+    animation: shake2 2s;
+  animation-iteration-count: infinite;
+  z-index:2;
+ }
+
+ .shake1:hover {
+  animation: none;
+}
+ 
+ 
+@keyframes shake2 {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+  .back1{
+ position: absolute;
+ top:1px;
+ left:0px;
+ }
+ 
+  
+ .text1{
+ position: absolute;
+ top: 130px; 
+ text-align:center;
+ font-size:25px;
+ font-family:"verdana";
+ color:#fffff0;
+ width:1160px;
+ }
+ 
+ .forkgo{
+    position: absolute;
+    font-size: 18px;
+    width:150px;
+    cursor: pointer;
+   animation: forkgo1 0.2s;
+   animation-iteration-count: 1;
+   animation-timing-function: ease;
+ }
+ 
+ @keyframes forkgo1 {
+    0%   {left:500px; top:350px; transform: rotate(0deg);opacity:1;}
+   100% {left:100px; top:350px; transform: rotate(0deg);opacity:0;}
+}
+
+.forkstop{position:absolute;left:100px; top:350px; opacity:0; cursor: default;}
+
+.back1go{
+    position: absolute;
+   animation: backgo1 0.7s;
+   animation-iteration-count: 1;
+   animation-timing-function:linear;
+ 
+   
+ }
+ 
+ @keyframes backgo1 {
+    0%   {left:0px;top:1px;transform: rotate(0deg);opacity:1;}
+  10%   {left:-150px;top:1px;transform: rotate(0deg);opacity:0.9;}
+   20%   {left:-300px;top:1px;transform: rotate(0deg);opacity:0.8;}
+    30%   {left:-450px;top:1px;transform: rotate(0deg);opacity:0.7;}
+     40%   {left:-600px;top:1px;transform: rotate(0deg);opacity:0.6;}
+   50%   {left:-750px;top:1px;transform: rotate(0deg);opacity:0.5;}
+    60%   {left:-900px;top:1px;transform: rotate(0deg);opacity:0.4;}
+     70%   {left:-1050px;top:1px;transform: rotate(0deg);opacity:0.3;}
+      80%   {left:-1200px;top:1px;transform: rotate(0deg);opacity:0.2;}
+    90%   {left:-1350px;top:1px;transform: rotate(0deg);opacity:0.1;}
+      100% {position:absolute;left:-1500px; top:1px; transform: rotate(0deg);opacity:0;}
+}
+
+.back1stop{position:absolute;left:-1500px; top:1px; opacity:0;}
+
+.hide{position:absolute;display:none;}
+
+.back2come{
+    position: absolute;
+   animation: backcome1 0.7s;
+   animation-iteration-count: 1;
+   animation-timing-function:ease;
+ 
+   
+ }
+ 
+ @keyframes backcome1 {
+    0%   {left:900px;top:1px;transform: rotate(0deg);opacity:0;}
+  10%   {left:800px;top:1px;transform: rotate(0deg);opacity:0.1;}
+   20%   {left:700px;top:1px;transform: rotate(0deg);opacity:0.2;}
+    30%   {left:600px;top:1px;transform: rotate(0deg);opacity:0.3;}
+     40%   {left:500px;top:1px;transform: rotate(0deg);opacity:0.4;}
+   50%   {left:400px;top:1px;transform: rotate(0deg);opacity:0.5;}
+    60%   {left:300px;top:1px;transform: rotate(0deg);opacity:0.6;}
+     70%   {left:200px;top:1px;transform: rotate(0deg);opacity:0.7;}
+      80%   {left:100px;top:1px;transform: rotate(0deg);opacity:0.8;}
+    90%   {left:0px;top:1px;transform: rotate(0deg);opacity:0.9;}
+      100% {position:absolute;left:0px; top:1px; transform: rotate(0deg);opacity:1;}
+}
+
+.back2stop{position:absolute;left:0px; top:1px; opacity:1;}
+
+ .mapcome{
+    position: absolute;
+    left:50px;
+ top:300px;
+ font-size:26px;
+   animation: map1come 0.4s;
+   animation-iteration-count: 1;
+   animation-timing-function: ease-in-out;
+   display:in-block;
+   transform: scale(0.8,0.8)
+ }
+ 
+ @keyframes map1come {
+    0%   {opacity:0;}
+  70%   {transform: scale(0,0);opacity:0;}
+   100% { transform: scale(0.8,0.8);opacity:1;}
+}
+
+.locationcome{
+    position: absolute;
+   animation: location1 1.6s;
+   animation-iteration-count: 1;
+   animation-timing-function:linear;  
+ }
+ 
+ @keyframes location1 {
+ 0%   {left:115px;top:1px;transform: rotate(0deg);opacity:0;}
+    60%   {left:115px;top:1px;transform: rotate(0deg);opacity:0;}
+   70%   {left:115px;top:40px;transform: rotate(0deg);opacity:0.2;}
+     80%   {left:115px;top:80px;transform: rotate(0deg);opacity:0.4;}
+   90%   {left:115px;top:110px;transform: rotate(0deg);opacity:0.5;}
+      100% {  position: absolute;left:115px; top:140px; transform: rotate(0deg);opacity:1;}
+}
+
+.locationstop{position: absolute;left:115px; top:140px; opacity:1;}
+
+.text2{
+ position: absolute;
+ top: 123px; 
+ display:none;
+ left:255px;
+ text-align:center;
+ }
+
+ .text3{
+ position: absolute;
+ top: 210px; 
+ display:none;
+ left:0px;
+ text-align:center;
+ font-size:24.5px;
+ font-family:"Calibri Light";
+ color:#fffff0;
+ width:1160px;
+ }
+ 
+ 
+
+ 
+ .cityselect{position:absolute;display:none;top:77px;left:150px;font-family:"Calibri Light";cursor:pointer;font-size:16px; color:#b9daff;background:#000000;}
+ .localityselect{position:absolute;width:270px;display:none;top:77px;left:410px;font-family:"Calibri Light";cursor:pointer;font-size:16px; color:#b9daff;background: #000000;}
+
+ svg > g:last-child > g:last-child { pointer-events: none; }
+
+ div.google-visualization-tooltip {
+  white-space: nowrap;
+  border-radius: 5px;
+  border: 1px solid #435279;
+  padding: 5px;
+  color: #3d4f61;
+  pointer-events: none;
+ 
+}
+
+.verticalLine {display:none;border-style: dashed; border-width: 1px; opacity:0.4; border-color:white; height:80px;top:140px;left:870px;position:absolute;}
+.verticalLine1 {animation-name: example2; animation-duration: 5s;display:none;border-style: dashed; border-width: 1px; opacity:0.4; border-color:white; height:220px;top:205px;left:920px;position:absolute;}
+
+
+     
+.appear{animation-name: example3; animation-duration: 3s;animation-iteration-count:1;display:none; opacity:1;}
+
+@keyframes example3 {0%   {opacity:0;}
+                    100%  {opacity:1;} }
+     
+     
+.text3go{
+    position: absolute;
+    cursor: pointer;
+   animation: text3go1 1s;
+   animation-iteration-count: 1;
+   animation-timing-function: ease;
+ }
+ 
+ @keyframes text3go1 {
+    0%   {left:500px; top:210px; transform: rotate(0deg);opacity:1;}
+   100% {left:100px; top:210px; transform: rotate(0deg);opacity:0;}
+}
+
+.text3stop{position:absolute;left:100px; top:210px; opacity:0; cursor: default;}
+
+.text2shrink{
+ position: absolute;
+animation: text2shrink1 0.2s;
+   animation-iteration-count: 1;
+   animation-timing-function: linear;
+}     
+ 
+ @keyframes text2shrink1 {
+    0%   {position:absolute;left:255px;top:123px;transform: rotate(0deg);opacity:1;width:649px;}
+   100% {position:absolute;left:50px; top:20px; transform: rotate(0deg);opacity:1;width:200px;}
+}
+ 
+ .text2stop1{position:absolute;left:50px; top:20px;width:200px;}
+ 
+ 
+ .pizzacome {
+ position:absolute; animation-duration:1s; display:none;top:310px;width:130px;left:500px;
+ }
+ 
+ 
+ .pizzashrink{
+ position: absolute;
+animation: pizzashrink1 0.2s;
+   animation-iteration-count: 1;
+   animation-timing-function: linear;
+}     
+ 
+ @keyframes pizzashrink1 {
+    0%   {position: absolute;left:500px;top:310px;transform: rotate(0deg);opacity:1;width:130px;}
+   100% {position: absolute;left:20px; top:20px; transform: rotate(0deg);opacity:1;width:28px;}
+}
+ 
+ .pizzastop1{position: absolute;left:20px; top:20px;width:28px;}
+    
+    .radioclass {position:absolute;display:none;top:80px;left:830px;color:#fffff0;width:250px;}
+     
+.mysearchbar {
+position:absolute;
+top:400px;
+height:0px;
+display:none;
+left:80px;
+width:500px;
+z-index:4;
+font-family:"Calibri Light";font-size:16px;background:#00ffffff;
+}  
+
+.mysearchbar2 {
+position:absolute;
+top:319px;
+height:0px;
+display:none;
+left:720px;
+width:500px;
+font-family:"Calibri Light";font-size:16px;background:#00ffffff;
+z-index:3;
+} 
+
+ 
+.zombut{
+position:absolute;
+display:none;
+top:400px;
+left:550px;
+width:105px;
+background-color:#cb202d;
+color:white;
+border:#cb202d;
+height:26px;
+font-size:11px;
+border-radius: 3px;
+text-align: center;
+    text-decoration: none;
+ 
+}
+
+
+.zombut.disabled:hover {
+    cursor:not-allowed;
+ }
+
+
+ </style>
+  
+  <div id="container"  >
+        <canvas id="canvas"  ></canvas>
+ 
+      </div>
+   
+ 
+   <img class = "hide" src="http://image.ibb.co/f1uicG/prev5.jpg" alt="prev5" border="0">
+   
+   <div id="dual_x_div" style="position: absolute; z-index:3;width: 500px; top:140px; left:32px;"></div>
+   
+
+    <img class="back1" id="back1" src="https://image.ibb.co/kk3j1b/backfinal.png" alt="back1" border="0">
+ 
+
+  
+   <img class = "hide" id = "map" src="https://image.ibb.co/f4ot76/map.png" alt="map" border="0">
+   <img class = "hide" id = "location" src="https://image.ibb.co/nFMPEm/location.png" alt="location" border="0">
+   
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ 
+    <script src="https://rawgit.com/pushnparekh/pushnparekh1/master/bang.js"></script>
+    <script src="https://rawgit.com/pushnparekh/pushnparekh1/master/myData1.js"></script>
+ 
+<p onclick="location.href='http://www.google.com/';" id= "home" style ="font-size:20px;left:1045px; height:500px;top:20px; color:#add8e6; vertical-align:middle; position:absolute;display:none;cursor:pointer" class="w3-large"><i class="glyphicon glyphicon-home" style="cursor:pointer"></i> Home</p>
+ 
+ <p id="note" style="position:absolute;left:10px;top:470px;display:none;font-size:10px;color:#add8e6">*Touch/Hover over bars to know more. </br> The data is extracted using Zomato APIs & used for non-commercial purposes. Last Updated: 31st December, 2017. Visit www.zomato.com for latest ratings.</p>
+
+  
+   <p class = "text3" id="text3">Making life choices can be tricky sometimes. So is choosing restaurant for your perfect meal.<br/>Explore the list of top restaurants, cafe, pubs and bars in your city.</p>
+ <img id="panel1" style="display:none;top:50px;position:absolute;width:1160px;"src="https://image.ibb.co/nE3Qpm/panel.png" alt="panel" border="0">
+ <select onchange= "citychanged()" class = "cityselect" id="cityselect">
+  <option value="Ahmedabad">Ahmedabad</option>
+  <option value="Bangalore">Bangalore</option>
+  <option value="Chennai">Chennai</option>
+  <option value="Delhi">Delhi</option>
+  <option value="Hyderabad">Hyderabad</option>
+  <option value="Indore">Indore</option>
+  <option value="Jaipur">Jaipur</option>
+  <option value="Kolkata">Kolkata</option>
+  <option value="Lucknow">Lucknow</option>
+  <option value="Mumbai">Mumbai</option>
+  <option value="Pune">Pune</option>
+</select>
+
+
+<select onchange = "localitychanged()" class = "localityselect" id="localityselect" style="display:none"></select>
+<p id="textcity" style ="position:absolute;top:80px;left:60px;color:white;display:none;font-weight:bold;font-style:italic;width:90px;">Select City:</p>
+<p id="textsub" style ="position:absolute;top:80px;left:732px;color:white;display:none;font-weight:bold;font-style:italic;width:90px;">Arrange by:</p>
+<p id="textlocality" style ="position:absolute;top:80px;left:290px;color:white;display:none;font-weight:bold;font-style:italic;width:120px;">Select Locality*:</p>
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+ 
+ <img id="pizza" class = "pizzacome" onclick= "shrink();" src="https://image.ibb.co/nmV1vR/pizza_fg.png" alt="PIZZA_FINAL" border="0">
+ <img id = "text2" class="text2" src="https://image.ibb.co/gr9ds6/besstt.png" alt="best" border="0">
+
+<div id="line2" class="verticalLine1"></div>
+<form id="arrange" class="radioclass">
+  <input  id="radiocost" onchange="submitAnswer();" type="radio" name="rate"   value="radiocost" checked>    Cost for two&emsp;
+  <input  id="radiorate" onchange="submitAnswer();" type="radio" name="rate"  value="radiorate">    User rating
+</form>
+      
+   
+ 
+  
+  
+   <form class="mysearchbar" id="searchbar1" onsubmit="return false;">
+   
+   <input style ="width:350px;height:26px;color:#ffdede;background:#000000;border:1px solid grey;" name="car" list="anrede" id="searchbar" type="text"  placeholder=" Search Restaurant by Name/Locality/City." onsubmit="abkrdisplay();"/>
+<datalist id="anrede"></datalist>
+<input  id = "addbutt" title="Add selected restaurant to above displayed list." type="submit" value = "Add" style="height:26px;width:55px;cursor:pointer;border:1px solid grey;" onclick="abkrdisplay();"/>
+<input  id="resetbutt" title="Reset Search bar"type="button" value="Reset" style="height:26px;width:55px;cursor:pointer;border:1px solid grey;" onclick="resetsearch();"/>
+
+  </form>
+ <button id="zomatobutt"  title="Make sure you've added restaurant in the above list." class="zombut disabled" onclick="zomatosearch();">Go to Zomato</button>
+  
+ <img id = "searchicon" style="display:none;position:absolute;top:398px;left:44px;" src="https://image.ibb.co/dWux4m/searchico.png" alt="searchico" border="0">
+   
+   <img id= "panel2" style="position:absolute;display:none;top:123px;left:660px;opacity:0.7;" src="https://image.ibb.co/gdGkPm/panel2.png" alt="panel2" border="0">
+<img id= "panel3" style="position:absolute;display:none;top:250px;left:660px;opacity:0.7;" src="https://image.ibb.co/ik7LqR/panels3.png" alt="panels3" border="0">
+
+
+  
+  
+<p id= "textinpanel2" style="display:none;position:absolute;top:200px;left:700px;font-size:14px;color:white;width:250px;"># Restaurants in City</p>
+<p id= "text2inpanel2" style="display:none;position:absolute;top:200px;left:915px;font-size:14px;color:white;width:250px;"># Restaurants in Locality</p>
+
+ <div id="line1" class="verticalLine"></div>
+ 
+  <form class="mysearchbar2" id="searchbar2"  onsubmit="return false;">
+    <input style ="width:220px;height:26px;color:#ffdede;background:#000000;border:1px solid grey;" name="car2" list="anrede2" id="searchbar22" type="text"  placeholder=" Search for Cuisine. e.g. Biryani" onsubmit="abkrdisplay2();"/>
+<datalist id="anrede2"></datalist>
+<input  id = "addbutt2" type="submit" value = "Search" style="height:26px;width:60px;cursor:pointer;border:1px solid grey;" onclick="abkrdisplay2();"/>
+<input  id="resetbutt2" type="button" value="Reset" style="height:26px;width:60px;cursor:pointer;border:1px solid grey;" onclick="resetsearch2();"/>
+  </form>
+  
+  <p  style="display:none;position:absolute;top:140px;width:200px;text-align:center;left:663px;font-size:40px;font-weight:bold;color:#dbdbdb;" id="fun"></p>
+  
+  <p  style="position:absolute;top:140px;width:150px;text-align:center;left:910px;font-size:40px;font-weight:bold;color:#dbdbdb;" id="fun2"></p>
+ 
+ 
+ 
+ <p id = "searchcity" style="display:none;position:absolute;top:360px;left:760px;font-size:13px;color:#eff6f9;width:450px;">: Maplai, Nungambakkam, Chennai</p>
+<p id = "searchrating" style="display:none;position:absolute;top:380px;left:760px;font-size:13px;color:#eff6f9;width:250px;">: 4.6</p>
+<p id = "searchvotes" style="display:none;position:absolute;top:400px;left:760px;font-size:13px;color:#eff6f9;width:250px;">: 2858</p>
+
+ <p id = "searchcityplace" style="display:none;position:absolute;top:360px;left:685px;font-size:13px;font-weight:bold;width:100px;color:#eff6f9;">Restaurant</p>
+<p id = "searchratingplace" style="display:none;position:absolute;top:380px;left:685px;font-size:13px;color:#eff6f9;width:100px;font-weight:bold;">Rating</p>
+<p id = "searchvotesplace" style="display:none;position:absolute;top:400px;left:685px;font-size:13px;color:#eff6f9;width:100px;font-weight:bold;">Votes</p>
+ <img id = "searchicon2" style="display:none;position:absolute;top:317px;left:685px;" src="https://image.ibb.co/dWux4m/searchico.png" alt="searchic2o" border="0">
+ 
+<p id = "eatlove" style = "position:absolute;display:none;top:268px;left:686px;font-size:13px; font-style: italic;opacity:0.6;color:#eff6f9;width:650px; font-family: Arial, Helvetica, sans-serif;">Find the best restaurant in India.</br> The restaurants are ranked based on user ratings & votes. </p>
+<p id = "eatlove2" style = "position:absolute;display:none;top:370px;left:45px;font-size:13px; font-style: italic;opacity:0.6;color:#eff6f9; width:690px;font-family: Arial, Helvetica, sans-serif;">Search your favorite restaurant here. Add to the list to compare. Check out more details on Zomato.</p>
+ <p id="demo"></p>
+
+   </head>
+ 
+ 
+ <body>
+
+ </body>
+ 
+ <script>
+ 
+ var w = window.innerWidth
+|| document.documentElement.clientWidth
+|| document.body.clientWidth;
+
+var h = window.innerHeight
+|| document.documentElement.clientHeight
+|| document.body.clientHeight;
+
+if(h>w){alert("Switch to Landscape Mode for Better Viewing Experience")};
+
+
+ 
+ var localcount;
+ var end2; var start2; 
+ 
+ 
+ 
+ 
+   function animateValue(id, start, end, duration) {
+    var range = end - start;
+    var current = start;
+    var increment = end > start? 1 : -1;
+    var stepTime = 0.05;
+    var obj = document.getElementById(id);
+    var timer = setInterval(function() {
+        current += increment;
+        obj.innerHTML = current;
+        if (current == end) {
+            clearInterval(timer);
+        }
+    }, stepTime);
+};
+
+
+ 
+   function animateValue2(id, start, end, duration) {
+    var range = end - start;
+    var current = start;
+    var increment = end > start? 1 : -1;
+    var stepTime = 0.05;
+    var obj = document.getElementById(id);
+    var timer = setInterval(function() {
+        current += increment;
+        obj.innerHTML = current;
+        if (current == end) {
+            clearInterval(timer);
+        }
+    }, stepTime);
+};
+
+
+  
+    
+ var radioselected = "radiocost"; var barcolorme = "blue"; var res; var counts; counts = 0;var p;
+ 
+ function submitAnswer() {
+  radioselected = document.querySelector('input[name="rate"]:checked').value;
+  localitychanged();
+  };
+ 
+ var select = document.getElementById("localityselect");
+ select.options.length = 0;
+ var myobject = {ValueB:"Ambavadi", ValueC:"Ashram Road",ValueD:"Bodakdev",  ValueE:"Bopal", ValueF:"C G Road", ValueH:"Ellis Bridge", ValueI:"Ghatlodia", ValueJ:"Gota", ValueK:"Gulbai Tekra",  ValueM:"Gurukul", ValueP:"Infocity", ValueQ:"Lal Darwaja", ValueR:"Navrangpura", ValueS:"Prahlad Nagar", ValueV:"Satellite", ValueY:"Sola", ValueX:"Thaltej",  ValueZ:"Vasna", ValueAA:"Vastrapur", ValueBB:"Vejalpur"};
+  for(index in myobject) {select.options[select.options.length] = new Option(myobject[index], index);}
+
+  
+document.getElementById("text2").style.display = "inline";
+document.getElementById("text2").className = "mapcome text2";
+document.getElementById("text3").style.display = "inline";
+document.getElementById("text3").className = "mapcome text3";
+
+   setTimeout(function() {
+   document.getElementById("pizza").style.display = "inline";
+  document.getElementById("pizza").className = "fork pizzacome";
+}, 100);
+ 
+ 
+ function forkgo(){ 
+
+ 
+// document.getElementById("fork").className = "forkgo forkstop";
+ //document.getElementById("back1").className = "back1go back1stop";
+ //document.getElementById("text1").className = "back1go back1stop";
+ //document.getElementById("back2").className = "back2come back2stop";
+// document.getElementById("map").className = "mapcome";
+// document.getElementById("location").className = "locationcome locationstop";
+ //document.getElementById("home").style.display = "inline";
+ //
+ //document.getElementById("text2").className = "mapcome text2";
+
+  //
+  
+
+  
+ 
+  
+    //
+
+ //   
+ //  document.getElementById("line2").style.display = "inline";
+ 
+  
+ };
+ 
+ function shrink(){
+
+ 
+ document.getElementById("text3").className = "text3go1 text3stop";
+ document.getElementById("text2").className = "text2shrink text2stop1";
+ document.getElementById("pizza").className = "pizzashrink pizzastop1";
+   
+   setTimeout(function() {animateValue("fun", 3000,3565, 100); animateValue2("fun2", 0,72, 1000);
+  document.getElementById("textcity").style.display = "inline";
+ document.getElementById("textlocality").style.display = "inline";
+  document.getElementById("textsub").style.display = "inline";
+   document.getElementById("cityselect").style.display = "inline";
+   document.getElementById("panel1").style.display = "inline";
+    document.getElementById("localityselect").style.display = "inline";
+ document.getElementById("pizza").className = "shake1 pizzastop1";
+ document.getElementById('pizza').onclick = null;
+  document.getElementById("arrange").style.display = "inline";
+  document.getElementById("searchbar1").style.display = "inline";
+  document.getElementById("searchbar2").style.display = "inline";
+  document.getElementById("addbutt").style.display = "inline";
+  document.getElementById("resetbutt").style.display = "inline";
+   document.getElementById("searchicon").style.display = "inline";
+   document.getElementById("panel2").style.display = "inline";
+    document.getElementById("panel3").style.display = "inline";
+ document.getElementById("textinpanel2").style.display = "inline";
+    document.getElementById("text2inpanel2").style.display = "inline";
+ document.getElementById("line1").style.display = "inline";
+ document.getElementById("fun").style.display = "inline";
+ document.getElementById("searchcity").style.display = "inline";
+ document.getElementById("searchrating").style.display = "inline";
+ document.getElementById("searchvotes").style.display = "inline";
+ document.getElementById("note").style.display = "inline";
+ 
+    document.getElementById("searchcityplace").style.display = "inline";
+    document.getElementById("searchratingplace").style.display = "inline";
+     document.getElementById("searchvotesplace").style.display = "inline";
+     
+     document.getElementById("eatlove").style.display = "inline";
+     document.getElementById("searchicon2").style.display = "inline";
+     document.getElementById("eatlove2").style.display = "inline";
+     document.getElementById("zomatobutt").style.display = "inline";
+     
+  document.getElementById("zomatobutt").disabled = true;
+  if(f=1){localityselected = "Ambavadi";var p = 0;var q =0;
+ var resta = "Restaurant: ";
+ var restab = resta.bold();
+ var cost2 = "Cost For Two: ";
+ var cost2b = cost2.bold();
+ var rate = "Rating: ";
+ var rateb = rate.bold();
+ var cuisi = "Cuisine: ";
+ var cuisib = cuisi.bold();
+ var vote = "User Rating Votes: ";
+ var voteb = vote.bold();
+
+ 
+ for (var i = 0; i<1657; i++){if (localityselected==xdata[i].Locality){q = q + xdata[i].Costfortwo;if(p<12){p=p+1;
+ finaldata[p]=[xdata[i].Name,xdata[i].Costfortwo,
+ restab+xdata[i].Name + "<br/>"+cost2b+xdata[i].Costfortwo + "<br/>"+rateb+xdata[i].AggregateUserRating+"<br/>"+cuisib+
+ xdata[i].Cuisines1+xdata[i].Cuisines2+xdata[i].Cuisines3+xdata[i].Cuisines4+xdata[i].Cuisines5+xdata[i].Cuisines6+xdata[i].Cuisines7+xdata[i].Cuisines8+xdata[i].Cuisines9
+ +"<br/>"+voteb+xdata[i].UserRatingVotes,barcolorme];
+ 
+ }}};
+
+ finaldata.sort(function(a,b) {
+        return b[1]-a[1]
+    });
+ 
+ len2 = finaldata.length;
+
+ if(len2<16){
+ len3 = len2 * 26;merafont=12.5;merawidth=15;}
+ len3 = len2 * 24; merafont=12.5;merawidth=13;
+ if(len2>33){
+ len3 = len2 * 21; merafont=11;merawidth=14.5;}
+ 
+ drawStuff();f=2;};
+}, 300);
+   
+ };
+ 
+ 
+ 
+ var localityselected;
+ var cityselected;
+ var finaldata = [["Restaurant","Cost for two",{type: 'string', role: 'tooltip','p': {'html': true}},{ role: 'style' }]];
+var len2;
+var len3;
+
+  var merafont=12.5;   var merawidth=15;
+var f = 1;
+ 
+
+ 
+ function citychanged(){
+ var cityselected = document.getElementById("cityselect").value;
+ 
+ if(cityselected=="Ahmedabad"){ 
+ var myobject = {ValueA:"Ambavadi", ValueC:"Ashram Road",ValueD:"Bodakdev",  ValueE:"Bopal", ValueF:"C G Road", ValueH:"Ellis Bridge", ValueI:"Ghatlodia", ValueJ:"Gota", ValueK:"Gulbai Tekra",  ValueM:"Gurukul", ValueP:"Infocity", ValueQ:"Lal Darwaja", ValueR:"Navrangpura", ValueS:"Prahlad Nagar", ValueV:"Satellite", ValueY:"Sola", ValueX:"Thaltej",  ValueZ:"Vasna", ValueAA:"Vastrapur", ValueBB:"Vejalpur"};
+ var select = document.getElementById("localityselect");
+    select.options.length = 0; 
+    for(index in myobject) {select.options[select.options.length] = new Option(myobject[index], index);}
+   localityselected = "Ambavadi";
+   animateValue("fun", 3000,3565, 100);
+ };
+ 
+ if(cityselected=="Bangalore"){ animateValue("fun", 10900,11376, 100);
+ 
+ var select = document.getElementById("localityselect");
+ select.options.length = 0;
+ var myobject = {ValueB:"Banashankari", ValueC:"Bannerghatta Road", ValueE:"Bellandur", ValueF:"Brigade Road", ValueG:"BTM", ValueH:"Church Street", ValueK:"Frazer Town", ValueM:"HSR", ValueO:"JP Nagar", ValueP:"Kammanahalli", ValueQ:"Koramangala",ValueR:"Indiranagar", ValueT:"Malleshwaram", ValueU:"Marathahalli", ValueV:"MG Road", ValueX:"New BEL Road", ValueY:"Old Airport Road", ValueBB:"Residency Road", ValueCC:"Sahakara Nagar", ValueCC:"Sarjapur Road", ValueCC:"Soul Space Arena Mall, Marathahalli", ValueCC:"St. Marks Road", ValueCC:"UB City", ValueCC:"Whitefield"
+};
+  
+    for(index in myobject) {select.options[select.options.length] = new Option(myobject[index], index);}
+
+ localityselected = "Banashankari";
+ };
+ 
+ if(cityselected=="Chennai"){ animateValue("fun", 5700,6277, 100);
+ 
+ var select = document.getElementById("localityselect");
+ select.options.length = 0;
+ var myobject = {ValueA:"Adyar", ValueB:"Alwarpet", ValueC:"Anna Nagar East", ValueD:"Ashok Nagar", ValueE:"Besant Nagar",  ValueK:"Gopalapuram", ValueO:"Kilpauk", ValueQ:"Kodambakkam",  ValueT:"Mylapore",  ValueV:"Nungambakkam",   ValueY:"Perungudi",  ValueAA:"Porur",  ValueCC:"Ramapuram", ValueDD:"Royapettah",   ValueHH:"T. Nagar", ValueJJ:"Thuraipakkam", ValueKK:"Vadapalani", ValueLL:"Velachery"
+};
+  
+    for(index in myobject) {select.options[select.options.length] = new Option(myobject[index], index);}
+
+ localityselected = "Adyar";
+ };
+  
+  if(cityselected=="Delhi"){ animateValue("fun", 19500,19958, 100);
+ 
+ var select = document.getElementById("localityselect");
+ select.options.length = 0;
+ var myobject = {ValueA:"Connaught Place",    ValueG:"Delhi University-GTB Nagar", ValueH:"DLF Phase 4",  ValueM:"Golf Course Road", ValueN:"Greater Kailash 1 (GK1)",  ValueP:"Hauz Khas",    ValueV:"Janpath", ValueW:"Karol Bagh", ValueX:"Khan Market", ValueAA:"Netaji Subhash Place", ValueDD:"Rajouri Garden", ValueEE:"Saket", ValueMM:"Vasant Kunj", ValueNN:"Vijay Nagar"
+};
+  
+    for(index in myobject) {select.options[select.options.length] = new Option(myobject[index], index);}
+
+ localityselected = "Connaught Place";
+ };
+ 
+   if(cityselected=="Hyderabad"){ animateValue("fun", 5400,5944, 100);
+ 
+ var select = document.getElementById("localityselect");
+ select.options.length = 0;
+ var myobject = {ValueA:"Abids", ValueB:"Ameerpet", ValueC:"Banjara Hills", ValueD:"Begumpet", ValueF:"Gachibowli", ValueH:"Himayath Nagar",  ValueJ:"Hitech City",  ValueM:"Jubilee Hills", ValueN:"Kondapur", ValueO:"Kukatpally", ValueP:"Madhapur",  ValueX:"Tolichowki"
+};
+  
+    for(index in myobject) {select.options[select.options.length] = new Option(myobject[index], index);}
+
+ localityselected = "Abids";
+ };
+ 
+  if(cityselected=="Indore"){ animateValue("fun", 540,1076, 100);
+ 
+ var select = document.getElementById("localityselect");
+ select.options.length = 0;
+ var myobject = {ValueB:"Bhawar Kuan", ValueO:"New Palasia", ValueP:"Old Palasia", ValueQ:"RNT Marg", ValueU:"Sapna Sangeeta",  ValueY:"South Tukoganj", ValueBB:"VijayNagar"
+};
+  
+    for(index in myobject) {select.options[select.options.length] = new Option(myobject[index], index);}
+
+ localityselected = "Bhawar Kuan";
+ };
+ 
+ if(cityselected=="Jaipur"){ animateValue("fun", 1950,2381, 100);
+ 
+ var select = document.getElementById("localityselect");
+ select.options.length = 0;
+ var myobject = {ValueA:"C Scheme",  ValueV:"Malviya Nagar", ValueX:"Mansarovar", ValueZ:"MI Road", ValueDD:"Raja Park",  ValueHH:"Tonk Road", ValueII:"Vaishali Nagar"
+};
+  
+    for(index in myobject) {select.options[select.options.length] = new Option(myobject[index], index);}
+
+ localityselected = "C Scheme";
+ };
+ 
+ if(cityselected=="Kolkata"){ animateValue("fun", 5010,5456, 100);
+ 
+ var select = document.getElementById("localityselect");
+ select.options.length = 0;
+ var myobject = { ValueB:"Ballygunge", ValueC:"Behala", ValueD:"Bhawanipur",  ValueK:"Garia",  ValueR:"Jadavpur", ValueS:"Kankurgachi", ValueT:"Kasba",  ValueY:"New Market Area", ValueZ:"Park Street Area",  ValueFF:"Rajarhat New Town",  ValueGG:"Sector 1, Salt Lake",ValueJJ:"Sector 3, Salt Lake", ValueKK:"Sector 5, Salt Lake",  ValuePP:"Tollygunge"
+};
+  
+    for(index in myobject) {select.options[select.options.length] = new Option(myobject[index], index);}
+
+ localityselected = "Ballygunge";
+ };
+ 
+ if(cityselected=="Lucknow"){ animateValue("fun", 654,1174, 100);
+ 
+ var select = document.getElementById("localityselect");
+ select.options.length = 0;
+ var myobject = {ValueB:"Alambagh", ValueC:"Aliganj", ValueF:"Gomti Nagar", ValueG:"Hazratganj",  ValueJ:"Indira Nagar"
+ };
+  
+    for(index in myobject) {select.options[select.options.length] = new Option(myobject[index], index);}
+
+ localityselected = "Alambagh";
+ };
+ 
+ if(cityselected=="Mumbai"){ animateValue("fun", 15030,15420, 100);
+ 
+ var select = document.getElementById("localityselect");
+ select.options.length = 0;
+ var myobject = {ValueA:"Andheri", ValueB:"Bandra Kurla Complex",  ValueC:"Bandra West", ValueD:"Borivali West", ValueE:"Chakala", ValueF:"Chembur", ValueG:"Colaba", ValueJ:"Fort",  ValueN:"Goregaon East",  ValueR:"Juhu", ValueS:"Kandivali East", ValueT:"Kandivali West", ValueU:"Khar", ValueW:"Lower Parel", ValueX:"Mahakali",  ValueZ:"Malad West", ValueBB:"Mira Road", ValueCC:"Mulund West",  ValueII:"Powai",  ValueMM:"Vashi",  ValueVV:"Worli"
+};
+  
+    for(index in myobject) {select.options[select.options.length] = new Option(myobject[index], index);}
+
+ localityselected = "Andheri";
+ };
+ 
+ if(cityselected=="Pune"){ animateValue("fun", 7600,8121, 100);
+ 
+ var select = document.getElementById("localityselect");
+ select.options.length = 0;
+ var myobject = {ValueA:"Aundh",ValueB:"Baner",ValueC:"Camp Area", ValueD:"Chinchwad",ValueE:"FC Road",ValueF:"Hadapsar", ValueI:"Hinjawadi", ValueK:"Kalyani Nagar", ValueL:"Kharadi", ValueN:"Koregaon Park", ValueO:"Kothrud",  ValueU:"Magarpatta", ValueV:"NIBM Road",  ValueAA:"Pimple Saudagar",ValueBB:"Pimpri",  ValueFF:"Sadashiv Peth",  ValueKK:"Sinhgad Road", ValueLL:"Viman Nagar", ValueMM:"Wakad" 
+};
+  
+    for(index in myobject) {select.options[select.options.length] = new Option(myobject[index], index);}
+
+ localityselected = "Aundh";
+ };
+ 
+ 
+ localitychanged();
+ 
+ 
+ };
+   
+
+   
+  var middlekr;
+  var z; 
+  
+ function localitychanged(){
+ 
+
+
+ var len = finaldata.length;
+ for(var j = 1; j<len; j++){finaldata.pop();};
+ 
+  var x = document.getElementById("localityselect").selectedIndex;
+
+  var y = document.getElementById("localityselect").options;
+   
+    localityselected = y[x].text;
+ 
+ 
+if(z!==localityselected){
+ for(var c=0;c<20;c++){if(localityselected===ahmedabadtotal[c].Name){z = y[x].text;localcount=ahmedabadtotal[c].total;end2=localcount;animateValue2("fun2",0,end2,1000);}};
+};
+ 
+if(z!==localityselected){var c = 0;
+ for(var c=0;c<19;c++){if(localityselected===bangaloretotal[c].Name){z = y[x].text;localcount=bangaloretotal[c].total;end2=localcount;animateValue2("fun2",0,end2,1000);}};
+};
+
+if(z!==localityselected){var c = 0;
+ for(var c=0;c<18;c++){if(localityselected===chennaitotal[c].Name){z = y[x].text;localcount=chennaitotal[c].total;end2=localcount;animateValue2("fun2",0,end2,1000);}};
+};
+
+if(z!==localityselected){var c = 0;
+ for(var c=0;c<16;c++){if(localityselected===delhitotal[c].Name){z = y[x].text;localcount=delhitotal[c].total;end2=localcount;animateValue2("fun2",0,end2,1000);}};
+}; 
+ 
+ if(z!==localityselected){var c = 0;
+ for(var c=0;c<12;c++){if(localityselected===hybdtotal[c].Name){z = y[x].text;localcount=hybdtotal[c].total;end2=localcount;animateValue2("fun2",0,end2,1000);}};
+}; 
+
+ if(z!==localityselected){var c = 0;
+ for(var c=0;c<7;c++){if(localityselected===indoretotal[c].Name){z = y[x].text;localcount=indoretotal[c].total;end2=localcount;animateValue2("fun2",0,end2,1000);}};
+}; 
+
+ if(z!==localityselected){var c = 0;
+ for(var c=0;c<7;c++){if(localityselected===jaipurtotal[c].Name){z = y[x].text;localcount=jaipurtotal[c].total;end2=localcount;animateValue2("fun2",0,end2,1000);}};
+}; 
+
+ if(z!==localityselected){var c = 0;
+ for(var c=0;c<14;c++){if(localityselected===kolkatatotal[c].Name){z = y[x].text;localcount=kolkatatotal[c].total;end2=localcount;animateValue2("fun2",0,end2,1000);}};
+}; 
+
+if(z!==localityselected){var c = 0;
+ for(var c=0;c<5;c++){if(localityselected===lucknowtotal[c].Name){z = y[x].text;localcount=lucknowtotal[c].total;end2=localcount;animateValue2("fun2",0,end2,1000);}};
+}; 
+
+if(z!==localityselected){var c = 0;
+ for(var c=0;c<21;c++){if(localityselected===mumbaitotal[c].Name){z = y[x].text;localcount=mumbaitotal[c].total;end2=localcount;animateValue2("fun2",0,end2,1000);}};
+};
+
+if(z!==localityselected){var c = 0;
+ for(var c=0;c<19;c++){if(localityselected===punetotal[c].Name){z = y[x].text;localcount=punetotal[c].total;end2=localcount;animateValue2("fun2",0,end2,1000);}};
+};
+
+ p = 0;var q =0;var r=0;
+ var resta = "Restaurant: ";
+ var restab = resta.bold();
+ var cost2 = "Cost For Two: ";
+ var cost2b = cost2.bold();
+ var rate = "Rating: ";
+ var rateb = rate.bold();
+ var cuisi = "Cuisine: ";
+ var cuisib = cuisi.bold();
+ var vote = "User Rating Votes: ";
+ var voteb = vote.bold();
+
+ 
+ for (var i = 0; i<1657; i++){if (localityselected==xdata[i].Locality){q = q + xdata[i].Costfortwo;if(p<12){p=p+1; 
+ if(radioselected=="radiocost"){r = xdata[i].Costfortwo;};if(radioselected=="radiorate"){r = xdata[i].AggregateUserRating;};
+ finaldata[p]=[xdata[i].Name,r,
+ restab+xdata[i].Name + "<br/>"+cost2b+xdata[i].Costfortwo + "<br/>"+rateb+xdata[i].AggregateUserRating+"<br/>"+cuisib+
+ xdata[i].Cuisines1+" "+xdata[i].Cuisines2+" "+xdata[i].Cuisines3+" "+xdata[i].Cuisines4+" "+xdata[i].Cuisines5+" "+xdata[i].Cuisines6+" "+xdata[i].Cuisines7+" "+xdata[i].Cuisines8+" "+xdata[i].Cuisines9
+ +"<br/>"+voteb+xdata[i].UserRatingVotes,barcolorme];
+ 
+ }}};
+if(counts==1){localityselected=res[1];
+var i = 0;
+for (var i = 0; i<1657; i++){if (localityselected==xdata[i].Locality && res[0]==xdata[i].Name){ 
+ if(radioselected=="radiocost"){r = xdata[i].Costfortwo;};if(radioselected=="radiorate"){r = xdata[i].AggregateUserRating;};
+ finaldata[p+1]=[xdata[i].Name,r,
+ restab+xdata[i].Name + "<br/>"+cost2b+xdata[i].Costfortwo + "<br/>"+rateb+xdata[i].AggregateUserRating+"<br/>"+cuisib+
+ xdata[i].Cuisines1+" "+xdata[i].Cuisines2+" "+xdata[i].Cuisines3+" "+xdata[i].Cuisines4+" "+xdata[i].Cuisines5+" "+xdata[i].Cuisines6+" "+xdata[i].Cuisines7+" "+xdata[i].Cuisines8+" "+xdata[i].Cuisines9
+ +"<br/>"+voteb+xdata[i].UserRatingVotes,"#ff7f7f"];
+ 
+ counts=0;
+ }};
+
+
+};
+
+   finaldata.sort(function(a,b) {
+        return b[1]-a[1]
+    });
+ 
+  
+
+ 
+ len2 = finaldata.length;
+
+ if(len2<16){
+ len3 = len2 * 26;merafont=12.5;merawidth=15;}
+ len3 = len2 * 24; merafont=12.5;merawidth=13;
+ if(len2>33){
+ len3 = len2 * 21; merafont=11;merawidth=14.5;}
+ 
+ 
+ drawStuff();
+ };
+ 
+
+   
+ 
+ 
+ google.charts.load('current', {'packages':['corechart']});
+     
+ 
+  
+   
+  
+      function drawStuff() {
+ 
+        var data4 = new google.visualization.arrayToDataTable(finaldata);
+      
+        var options = {
+  tooltip: {isHtml: true},
+  width: 800,
+    height:len3,
+    backgroundColor:{ fill:'transparent' },
+  animation:{
+  startup:true,
+        duration: 600,
+        easing: 'ease',
+      },
+   bar:{width:merawidth},
+    
+          chartArea: {top:4, width:340},
+          bars: 'horizontal', // Required for Material Bar Charts.
+          series: {
+            0: { axis: 'distance' }, // Bind series 0 to an axis named 'distance'.
+           
+          },
+    fontSize:merafont,
+          axes: {
+            x: {
+             
+            }
+          },
+    legend:{position:"none"},
+  
+   vAxis:{textStyle:{ color: "white"}},hAxis:{textStyle:{ color: "none"},gridlines:{color:"none",count:2}}
+        };
+
+      var chart = new google.visualization.BarChart(document.getElementById('dual_x_div'));
+      chart.draw(data4, options);
+    google.visualization.events.addListener(chart, 'onmouseover', uselessHandler2);
+         google.visualization.events.addListener(chart, 'onmouseout', uselessHandler3);
+   
+  chart.draw(data4, options); 
+  function uselessHandler2() {
+ document.getElementById("searchbar2").style.zIndex = "1";
+  }  ;
+        function uselessHandler3() {
+ document.getElementById("searchbar2").style.zIndex = "3";
+  } ;
+    };
+
+       
+ var mycars = new Array();
+ var mycars1 = new Array();
+ var mycars2 = new Array();
+    
+   for(var v = 0; v < 1657; v++){mycars[v]=xdata[v].Name;mycars1[v]=xdata[v].Locality;mycars2[v]=xdata[v].City;};
+  var options = '';
+
+  for(var i = 0; i < 1657; i++){
+    options += '<option value="'+mycars[i]+"|"+mycars1[i]+"|"+mycars2[i]+'" />';};
+
+  document.getElementById('anrede').innerHTML = options;
+        
+
+ function abkrdisplay(){
+ var str = document.getElementById("searchbar").value; 
+    res = str.split("|");
+ counts = 1;  
+ if (str ===""){document.getElementById("zomatobutt").disabled = true;document.getElementById("zomatobutt").className = "zombut disabled";}
+ else{document.getElementById("zomatobutt").disabled = false;document.getElementById("zomatobutt").className = "zombut";};
+ localitychanged();
+  };
+
+ 
+ function resetsearch(){
+  document.getElementById("searchbar1").reset();
+  counts = 0;
+  document.getElementById("zomatobutt").disabled = true;document.getElementById("zomatobutt").className = "zombut disabled";
+  localitychanged();
+ };
+ 
+ 
+ var mycuisine = ["Afghani", "African", "American", "Andhra", "Arabian", "Asian", "Awadhi", "BBQ", "Belgian", "Bengali", "Biryani", "Burmese",  "Chettinad", "Chinese", "Continental",  "European",  "Finger Food", "French", "Goan", "Greek", "Grill", "Gujarati",  "Hyderabadi", "Iranian", "Italian", "Japanese",  "Kashmiri", "Kebab", "Kerala", "Korean", "Lebanese", "Maharashtrian", "Malaysian", "Malwani", "Mediterranean", "Mexican",  "Mongolian", "Mughlai", "Nepalese", "North Indian", "Oriental", "Pizza", "Rajasthani", "Roast Chicken", "Seafood", "Singaporean", "South Indian", "Spanish",   "Tex-Mex", "Thai",  "German", "Lucknowi", "Parsi", "Portuguese", "Tibetan", "Turkish"
+];
+ var options2 = '';
+  for(var a = 0; a < mycuisine.length; a++){
+    options2 += '<option value="'+mycuisine[a]+'" />';};
+
+  document.getElementById('anrede2').innerHTML = options2;
+
+ 
+ function resetsearch2(){
+  document.getElementById("searchbar2").reset();
+ };
+ 
+  function abkrdisplay2(){
+ var str2 = document.getElementById("searchbar22").value;
+ var j=0; var best;var best1; var finalbest = 0;var finalbest1 = 0; var finalbestname;var finalbestlocality;var finalbestcity;
+  for (var j = 0; j<1657; j++){if (str2==xdata[j].Cuisines1){best = xdata[j].AggregateUserRating;best1 = xdata[j].UserRatingVotes;if(finalbest<=best){if(finalbest==best){if(finalbest1<best1){finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}} else {finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}}}};var j = 0;
+for (var j = 0; j<1657; j++){if (str2==xdata[j].Cuisines2){best = xdata[j].AggregateUserRating;best1 = xdata[j].UserRatingVotes;if(finalbest<=best){if(finalbest==best){if(finalbest1<best1){finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}}else {finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}}}};var j = 0;
+  for (var j = 0; j<1657; j++){if (str2==xdata[j].Cuisines3){best = xdata[j].AggregateUserRating;best1 = xdata[j].UserRatingVotes;if(finalbest<=best){if(finalbest==best){if(finalbest1<best1){finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}}else {finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}}}};var j = 0;
+  for (var j = 0; j<1657; j++){if (str2==xdata[j].Cuisines4){best = xdata[j].AggregateUserRating;best1 = xdata[j].UserRatingVotes;if(finalbest<=best){if(finalbest==best){if(finalbest1<best1){finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}}else {finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}}}};var j = 0;
+  for (var j = 0; j<1657; j++){if (str2==xdata[j].Cuisines5){best = xdata[j].AggregateUserRating;best1 = xdata[j].UserRatingVotes;if(finalbest<=best){if(finalbest==best){if(finalbest1<best1){finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}}else {finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}}}};var j = 0;
+  for (var j = 0; j<1657; j++){if (str2==xdata[j].Cuisines6){best = xdata[j].AggregateUserRating;best1 = xdata[j].UserRatingVotes;if(finalbest<=best){if(finalbest==best){if(finalbest1<best1){finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}}else {finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}}}};var j = 0;
+  for (var j = 0; j<1657; j++){if (str2==xdata[j].Cuisines7){best = xdata[j].AggregateUserRating;best1 = xdata[j].UserRatingVotes;if(finalbest<=best){if(finalbest==best){if(finalbest1<best1){finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}}else {finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}}}};var j = 0;
+  for (var j = 0; j<1657; j++){if (str2==xdata[j].Cuisines8){best = xdata[j].AggregateUserRating;best1 = xdata[j].UserRatingVotes;if(finalbest<=best){if(finalbest==best){if(finalbest1<best1){finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}}else {finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}}}};var j = 0;
+  for (var j = 0; j<1657; j++){if (str2==xdata[j].Cuisines9){best = xdata[j].AggregateUserRating;best1 = xdata[j].UserRatingVotes;if(finalbest<=best){if(finalbest==best){if(finalbest1<best1){finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}}else {finalbest=best;finalbest1=best1;finalbestname=xdata[j].Name;finalbestlocality=xdata[j].Locality;finalbestcity=xdata[j].City;}}}};var j = 0;
+  
+  document.getElementById("searchcity").innerHTML = ": "+finalbestname+", "+finalbestlocality+", "+finalbestcity;
+  document.getElementById("searchrating").innerHTML = ": "+finalbest;
+  document.getElementById("searchvotes").innerHTML = ": "+finalbest1;
+  };
+ 
+
+
+
+ function zomatosearch(){
+ abkrdisplay();
+
+ 
+var res4  = "https://www.zomato.com/"+res[2]+"/restaurants?q="+res[0];
+
+if (typeof res[2] !=="undefined"){
+window.open(res4); };
+  
+  };
+
+
+
+
+ 
+ 
+ </script>
+ 
+ </html>
