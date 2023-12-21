@@ -1,0 +1,20 @@
+{
+  "RequestId": 118,
+  "_AlgorithmDataOutput": [
+    {
+      "RequestId": 118,
+      "GroupId": 357,
+      "SemanticKeyFigure": "FORECAST",
+      "ResultData": "123"
+    }
+  ],
+  "_Message": [
+    {
+      "RequestId": 118,
+      "GroupId": 357,
+      "MessageSequence": 1,
+      "MessageType": "I",
+      "MessageText": "Wrong input"
+    }
+  ]
+}
