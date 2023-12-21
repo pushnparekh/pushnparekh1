@@ -1,20 +1,20 @@
 {
-  "RequestID": 119,
-  "_AlgorithmDataOutput": [
-    {
-      "RequestID": 119,
-      "GroupID": 357,
-      "SemanticKeyFigure": "FORECAST",
-      "ResultData": "1234"
-    }
-  ],
-  "_Message": [
-    {
-      "RequestID": 119,
-      "GroupID": 357,
-      "MessageSequence": 0,
-      "MessageType": "s",
-      "MessageText": "mytextmessage"
-    }
-  ]
+   "RequestID": 120,
+   "_AlgorithmDataOutput": [
+      {
+         "RequestID": 120,
+         "GroupID": 357,
+         "SemanticKeyFigure": "string",
+         "ResultData": "string"
+      }
+   ],
+   "_Message": [
+      {
+         "RequestID": 120,
+         "GroupID": 357,
+         "MessageSequence": 0,
+         "MessageType": "s",
+         "MessageText": "string"
+      }
+   ]
 }
