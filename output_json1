@@ -1,8 +1,8 @@
 {
-   "RequestID": 124,
+   "RequestID": 125,
    "_AlgorithmDataOutput": [
       {
-         "RequestID": 124,
+         "RequestID": 125,
          "GroupID": 358,
          "SemanticKeyFigure": "FORECAST",
          "ResultData": "12345"
@@ -10,7 +10,7 @@
    ],
    "_Message": [
       {
-         "RequestID": 124,
+         "RequestID": 125,
          "GroupID": 358,
          "MessageSequence": 0,
          "MessageType": "I",
