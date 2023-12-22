@@ -12,7 +12,7 @@
       {
          "RequestID": 125,
          "GroupID": 358,
-         "MessageSequence": 0,
+         "MessageSequence": 1,
          "MessageType": "I",
          "MessageText": "strinneg"
       }
