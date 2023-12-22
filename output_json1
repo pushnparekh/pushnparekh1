@@ -1,17 +1,17 @@
 {
-   "RequestID": 121,
+   "RequestID": 123,
    "_AlgorithmDataOutput": [
       {
-         "RequestID": 121,
-         "GroupID": 357,
+         "RequestID": 123,
+         "GroupID": 358,
          "SemanticKeyFigure": "FORECAST",
          "ResultData": "12345"
       }
    ],
    "_Message": [
       {
-         "RequestID": 121,
-         "GroupID": 357,
+         "RequestID": 123,
+         "GroupID": 358,
          "MessageSequence": 0,
          "MessageType": "I",
          "MessageText": "strinneg"
